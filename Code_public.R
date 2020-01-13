@@ -25,7 +25,7 @@ setwd("C:/Users/Zing/OneDrive/GitHub/R/Market Basket/instacart-market-basket-ana
 
 #library
 Packages <- c("tidyverse"
-,"e1071,"caret","class","randomForest","RColorBrewer","scales","data.table","readr","plyr","sqldf","ggpcorrplot","ggplot2","cluster","HSAUR","fpc","openxlsx")
+,"e1071","caret","class","randomForest","RColorBrewer","scales","data.table","readr","plyr","sqldf","ggpcorrplot","ggplot2","cluster","HSAUR","fpc","openxlsx")
 lapply(Packages, library, character.only = TRUE)
 
 # import data
